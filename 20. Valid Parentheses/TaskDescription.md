@@ -1,4 +1,4 @@
-Given a string s containing just the characters <code>'('</code>, ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string s containing just the characters <code>'('</code>, <code>')'</code>, <code>'{'</code>, <code>'}'</code>, <code>'['</code> and <code>']'</code>, determine if the input string is valid.
 
 An input string is valid if:
 
