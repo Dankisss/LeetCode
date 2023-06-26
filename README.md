@@ -1,7 +1,8 @@
 # LeetCode
 <img src="LeetCode.png"
      alt="Markdown Monster icon"
-     width="2000"
+     width="200"
      height="100" 
+     align="center"
      style="float: left; margin-right: 10px;" />
 <p>Here you can find solutions for some of the LeetCode problems realted to Data structures and algorithms!</p>
