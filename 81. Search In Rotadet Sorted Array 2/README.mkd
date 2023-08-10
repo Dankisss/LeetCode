@@ -1,0 +1,27 @@
+There is an integer array nums sorted in non-decreasing order (not necessarily with distinct values).
+
+Before being passed to your function, nums is rotated at an unknown pivot index k (0 <= k < nums.length) such that the resulting array is <code>[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]</code> (0-indexed). For example, <code>[0,1,2,4,4,4,5,6,6,7]</code> might be rotated at pivot index 5 and become <code>[4,5,6,6,7,0,1,2,4,4]</code>.
+
+Given the array nums after the rotation and an integer target, return <code>true</code> <i>if</i> target is in <code>nums</code>, or <code>false</code> <i>if</i> it is not in <code>nums>/code>.
+
+You must decrease the overall operation steps as much as possible.
+
+ 
+
+<b>Example 1:</b>
+
+<code><b>Input:</b> nums = [2,5,6,0,0,1,2], target = 0
+Output: true</code>
+<br/><br/>
+Example 2:
+
+<code><b>Input:</b> nums = [2,5,6,0,0,1,2], target = 3
+<b>Output:</b> false </code>
+ 
+
+Constraints:
+
+1 <= nums.length <= 5000
+-104 <= nums[i] <= 104
+nums is guaranteed to be rotated at some pivot.
+-104 <= target <= 104
