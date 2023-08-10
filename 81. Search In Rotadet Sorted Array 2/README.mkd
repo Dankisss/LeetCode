@@ -21,7 +21,11 @@ Example 2:
 
 Constraints:
 
-<pre><ul> 1 <= nums.length <= 5000
- -104 <= nums[i] <= 104
- nums is guaranteed to be rotated at some pivot.
- -104 <= target <= 104</ul></pre>
+<pre>
+ <ul> 
+  <li>1 <= nums.length <= 5000</li>
+ <li>-104 <= nums[i] <= 104</li>
+ <li>nums is guaranteed to be rotated at some pivot.</li>
+ <li>-104 <= target <= 104</li>
+ </ul>
+ </pre>
